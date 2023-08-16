@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #d9c6c6;
+}
+.cont-header{
+	width: 550px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 7px;
+	padding: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.form-group{
+	margin: 0;
+	padding: 30px 20px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.list-group-item{
+	display: flex;
+}
+.list-group-item .btn{
+	flex: 1;
+	padding: 2px 0;
+	margin: 3px;
+}
+.list-group-item a{
+	flex: 7;
+}
+.btn-1{
+	flex: 1;
+}
